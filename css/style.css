@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('res/fonts/quicksand/Quicksand-Regular.ttf');
+}
+@font-face {
+    font-family: 'Quicksand Light';
+    src: url('res/fonts/quicksand/Quicksand-Light.ttf');
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    src: url('res/fonts/quicksand/Quicksand-Bold.ttf');
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #f3f3f3;
+}
+
+/*
+
+#header {
+    background-color: white;
+}
+
+header.static {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+#header.static.mode-transparent {
+    background-color: transparent;
+}
+
+header.static nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header.static nav ul li {
+    float: left;
+}
+
+header.static nav ul li h2 {
+    
+}
+
+header.static nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+header.static nav ul li a:hover {
+    background-color: #111;
+}
+
+*/
+
+.main-container {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+aside.profile {
+    background-color: #607D8B;
+    width: 290px;
+    margin: 48px;
+    box-shadow: 0 0 1em #616161;
+}
+
+aside.profile figure img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.profile p.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.profile p.job {
+    text-align: center;
+}
+
+p.social-connection {
+    text-align: center;
+}
+
+p.social-connection img {
+    height: 24px;
+    margin: 8px;
+}
+
+p.social-connection a {
+    text-decoration: none;
+}
+
+
+section.sections-container {
+    float: left;
+    max-width: 810px;
+    margin: 48px;
+}
+
+section.topic {
+    background-color: white;
+    height: 1200px;
+    border: 1px solid #E0E0E0;
+    padding: 36px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 1em #757575;
+}
+
+nav.quick-nav {
+    background: transparent;
+}
+
