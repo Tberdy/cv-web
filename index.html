@@ -11,273 +11,326 @@
         <script src="js/script.js"></script>
     </head>
     <body>
-        <aside class="sidebar col-2">
-            <section class="profile">
-                <h4 class="nodisplay">Grouping...</h4>
-                <figure>
-                    <img src="res/img/profile.jpg" alt="profile_picture">
-                    <figcaption>
-                        <p class="name">Thomas BERDY</p>
-                        <p class="job">Web developer</p>
-                    </figcaption>
-                </figure>
-                <p class="social-connection">
-                    <a href="https://www.facebook.com/Tberdy">
-                        <img src="res/svg/facebook-logo-outline.svg" alt="Facebook">
-                    </a>
-                    <a href="https://twitter.com/tberdy">
-                        <img src="res/svg/twitter-social-outlined-logo.svg" alt="Twitter">
-                    </a>
-                    <a href="https://plus.google.com/+ThomasBerdy">
-                        <img src="res/svg/google-plus-outlined-logo-social-symbol.svg" alt="Google">
-                    </a>
-                    <a href="https://www.linkedin.com/in/thomas-berdy-92a87a105/">
-                        <img src="res/svg/linkedin-social-outline-logotype.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/tberdy">
-                        <img src="res/svg/github-logo.svg" alt="Github"> 
-                    </a>
-                </p>
-            </section>
-
-            <section class="download">
-                <h4 class="nodisplay">Grouping...</h4>
-                <section>
+        <svg id="bg-draw-left" width="758" height="519">
+            <polygon points="0,455,693,352,173,0,92,0,0,71" fill="#e1e1e1"></polygon>
+        </svg>
+        <svg id="bg-draw-right" width="633" height="536">
+            <polygon points="0,0,633,0,633,536" fill="#607D8B"></polygon>
+        </svg>
+        <section class="centered">
+            <h4 class="nodisplay">Grouping...</h4>
+            <aside class="sidebar col-2">
+                <section class="profile">
                     <h4 class="nodisplay">Grouping...</h4>
-                    <a href="CV.pdf" class="uppercase highlight">Download CV</a>
-                </section>
-            </section>
-        </aside>
-
-        <main class="pages-container">
-            <h1 class="nodisplay">CV</h1>
-
-            <section class="page">
-                <h2 class="nodisplay">Page 1</h2>
-
-                <article>
-                    <h3>Hi everybody !</h3>
-                    <blockquote>
-                        Passionné de nouvelles technologies, je cherche la meilleure façon de les intégrer pour faire émerger de nouveaux usages.
-                    </blockquote>
-                </article>
-
-                <hr class="separator">
-
-                <section class="row">
-                    <h2 class="nodisplay">Row 2</h2>
-                    <article class="col-6">
-                        <h3 class="thin">Personal information</h3>
-                        <table class="breath">
-                            <tr class="nodisplay">
-                                <th>Key</th>
-                                <th>Value</th>
-                            </tr>
-                            <tr>
-                                <td>Full Name</td>
-                                <td>Thomas Berdy</td>
-                            </tr>
-                            <tr>
-                                <td>Date of birth</td>
-                                <td>06 / 06 / 1996</td>
-                            </tr>
-                            <tr>
-                                <td>Address</td>
-                                <td>19 Allée Robert Doisneau, 92100 Boulogne Billancourt, FRANCE</td>
-                            </tr>
-                            <tr>
-                                <td>E-mail</td>
-                                <td><a href="mailto:tberdy@hotmail.fr">tberdy@hotmail.fr</a></td>
-                            </tr>
-                            <tr>
-                                <td>Phone</td>
-                                <td><a href="tel:+33620893275">+33 6 20 89 32 75</a></td>
-                            </tr>
-                        </table>
-                    </article>
-
-                    <article class="col-6">
-                        <h3 class="thin">Languages</h3>
-                        <table class="breath">
-                            <tr class="nodisplay">
-                                <th>Language</th>
-                                <th>Progress</th>
-                                <th>Comment</th>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase"><strong>French</strong></td>
-                                <td><progress value="95" max="100" class="theme-color"></progress></td>
-                                <td>native</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase"><strong>English</strong></td>
-                                <td><progress value="85" max="100" class="theme-color"></progress></td>
-                                <td>fluent</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase"><strong>Spanish</strong></td>
-                                <td><progress value="40" max="100" class="theme-color"></progress></td>
-                                <td>beginner</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase"><strong>Korean</strong></td>
-                                <td><progress value="20" max="100" class="theme-color"></progress></td>
-                                <td>beginner</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase"><strong>Chinese</strong></td>
-                                <td><progress value="10" max="100" class="theme-color"></progress></td>
-                                <td>beginner</td>
-                            </tr>
-                        </table>
-                    </article>
+                    <figure>
+                        <img src="res/img/profile.jpg" alt="profile_picture">
+                        <figcaption>
+                            <p class="name">Thomas BERDY</p>
+                            <p class="job">Web developer</p>
+                        </figcaption>
+                    </figure>
+                    <p class="social-connection">
+                        <a href="https://www.facebook.com/Tberdy">
+                            <img src="res/svg/facebook-logo-outline.svg" alt="Facebook">
+                        </a>
+                        <a href="https://twitter.com/tberdy">
+                            <img src="res/svg/twitter-social-outlined-logo.svg" alt="Twitter">
+                        </a>
+                        <a href="https://plus.google.com/+ThomasBerdy">
+                            <img src="res/svg/google-plus-outlined-logo-social-symbol.svg" alt="Google">
+                        </a>
+                        <a href="https://www.linkedin.com/in/thomas-berdy-92a87a105/">
+                            <img src="res/svg/linkedin-social-outline-logotype.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/tberdy">
+                            <img src="res/svg/github-logo.svg" alt="Github"> 
+                        </a>
+                    </p>
                 </section>
 
-                <hr class="separator">
+                <section class="download">
+                    <h4 class="nodisplay">Grouping...</h4>
+                    <section>
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <a href="CV.pdf" class="uppercase">Download CV</a>
+                    </section>
+                </section>
+            </aside>
 
-                <section class="row">
-                    <h2 class="nodisplay">Row 3</h2>
-                    <article class="col-6">
-                        <h3 class="thin">Professional skills</h3>
-                        <table class="breath">
-                            <tr class="nodisplay">
-                                <th>Skill name</th>
-                                <th>Progress</th>
-                                <th>Value</th>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase">PHP</td>
-                                <td><progress value="90" max="100" class="theme-color"></progress></td>
-                                <td>90%</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase">C++</td>
-                                <td><progress value="80" max="100" class="theme-color"></progress></td>
-                                <td>80%</td>
-                            </tr>
-                            <tr>
-                                <td class="highlight uppercase">Angular</td>
-                                <td><progress value="85" max="100" class="theme-color"></progress></td>
-                                <td>85%</td>
-                            </tr>
-                        </table>
+            <main class="pages-container">
+                <h1 class="nodisplay">CV</h1>
+
+                <section id="#page-info" class="page">
+                    <h2 class="nodisplay">Page 1</h2>
+
+                    <article>
+                        <h3>Hi everybody !</h3>
+                        <blockquote>Digital evangelist, I'm looking for the best way to integrate them to bring out new use cases.</blockquote>
                     </article>
 
-                    <article class="col-6">
-                        <h3 class="thin">Additional skills</h3>
-                        <ul>
-                            <li>Continuous integration</li>
-                            <li>Project management</li>
-                            <li>Agile methodology</li>
-                            <li>Design thinking</li>
-                            <li>Lean startup</li>
-                        </ul>
-                    </article>
+                    <hr class="separator">
+
+                    <section class="row">
+                        <h2 class="nodisplay">Row 2</h2>
+                        <article class="col-6">
+                            <h3 class="thin">Personal information</h3>
+                            <table class="breath">
+                                <tr class="nodisplay">
+                                    <th>Key</th>
+                                    <th>Value</th>
+                                </tr>
+                                <tr>
+                                    <td>Full Name</td>
+                                    <td>Thomas Berdy</td>
+                                </tr>
+                                <tr>
+                                    <td>Date of birth</td>
+                                    <td>06 / 06 / 1996</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>19 Allée Robert Doisneau, 92100 Boulogne Billancourt, FRANCE</td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td><a href="mailto:tberdy@hotmail.fr">tberdy@hotmail.fr</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td><a href="tel:+33620893275">+33 6 20 89 32 75</a></td>
+                                </tr>
+                            </table>
+                        </article>
+
+                        <article class="col-6">
+                            <h3 class="thin">Languages</h3>
+                            <table class="breath">
+                                <tr class="nodisplay">
+                                    <th>Language</th>
+                                    <th>Progress</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase"><strong>French</strong></td>
+                                    <td><progress value="95" max="100" class="theme-color"></progress></td>
+                                    <td>native</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase"><strong>English</strong></td>
+                                    <td><progress value="85" max="100" class="theme-color"></progress></td>
+                                    <td>fluent</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase"><strong>Spanish</strong></td>
+                                    <td><progress value="40" max="100" class="theme-color"></progress></td>
+                                    <td>beginner</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase"><strong>Korean</strong></td>
+                                    <td><progress value="20" max="100" class="theme-color"></progress></td>
+                                    <td>beginner</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase"><strong>Chinese</strong></td>
+                                    <td><progress value="10" max="100" class="theme-color"></progress></td>
+                                    <td>beginner</td>
+                                </tr>
+                            </table>
+                        </article>
+                    </section>
+
+                    <hr class="separator">
+
+                    <section class="row">
+                        <h2 class="nodisplay">Row 3</h2>
+                        <article class="col-6">
+                            <h3 class="thin">Professional skills</h3>
+                            <table class="breath">
+                                <tr class="nodisplay">
+                                    <th>Skill name</th>
+                                    <th>Progress</th>
+                                    <th>Value</th>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase">PHP</td>
+                                    <td><progress value="90" max="100" class="theme-color"></progress></td>
+                                    <td>90%</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase">C++</td>
+                                    <td><progress value="80" max="100" class="theme-color"></progress></td>
+                                    <td>80%</td>
+                                </tr>
+                                <tr>
+                                    <td class="highlight uppercase">Angular</td>
+                                    <td><progress value="85" max="100" class="theme-color"></progress></td>
+                                    <td>85%</td>
+                                </tr>
+                            </table>
+                        </article>
+
+                        <article class="col-6">
+                            <h3 class="thin">Additional skills</h3>
+                            <ul>
+                                <li>Continuous integration</li>
+                                <li>Project management</li>
+                                <li>Agile methodology</li>
+                                <li>Design thinking</li>
+                                <li>Lean startup</li>
+                            </ul>
+                        </article>
+                    </section>
+
+                    <hr class="separator">
+
+                    <section class="row">
+                        <h2 class="nodisplay">Row 3</h2>
+                        <article class="col-6">
+                            <h3 class="thin">Education</h3>
+                            <ul>
+                                <li>ECE Paris </li>
+                                <li>Keimyung University</li>
+                            </ul>
+                        </article>
+
+                        <article class="col-6">
+                            <h3 class="thin">Hobbies</h3>
+                            <section class="row">
+                                <h4 class="nodisplay">Grouping...</h4>
+                                <section class="col-6 hobby hobby-left">
+                                    <h4 class="nodisplay">Grouping...</h4>
+                                    <figure>
+                                        <img src="res/svg/hiking.svg" alt="Hiking">
+                                        <figcaption>Hiking</figcaption>
+                                    </figure>
+                                </section>
+                                <section class="col-6 hobby hobby-right">
+                                    <h4 class="nodisplay">Grouping...</h4>
+                                    <figure>
+                                        <img src="res/svg/airplane.svg" alt="Travel">
+                                        <figcaption>Travel</figcaption>
+                                    </figure>
+                                </section>
+
+                            </section>
+
+                            <hr class="hobby">
+
+                            <section class="row">
+                                <h4 class="nodisplay">Grouping...</h4>
+                                <section class="col-6 hobby hobby-left ">
+                                    <h4 class="nodisplay">Grouping...</h4>
+                                    <figure>
+                                        <img src="res/svg/oxygen-tank.svg" alt="Diving">
+                                        <figcaption>Diving</figcaption>
+                                    </figure>
+                                </section>
+                                <section class="col-6 hobby hobby-right">
+                                    <h4 class="nodisplay">Grouping...</h4>
+                                    <figure>
+                                        <img src="res/svg/popcorn.svg" alt="Cinema">
+                                        <figcaption>Cinema</figcaption>
+                                    </figure>
+                                </section>
+                            </section>
+                        </article>
+                    </section>
                 </section>
 
-                <hr class="separator">
-
-                <section class="row">
-                    <h2 class="nodisplay">Row 3</h2>
-                    <article class="col-6">
-                        <h3 class="thin">Education</h3>
-
-                    </article>
-
-                    <article class="col-6">
-                        <h3 class="thin">Hobbies</h3>
-                        <section class="row">
+                <section id="#page-work" class="page">
+                    <h2 class="uppercase">Work Experience</h2>
+                    <section class="row">
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <section class="col-4">
                             <h4 class="nodisplay">Grouping...</h4>
-                            <section class="col-6 hobby hobby-left">
-                                <h4 class="nodisplay">Grouping...</h4>
-                                <figure>
-                                    <img src="res/svg/hiking.svg" alt="Hiking">
-                                    <figcaption>Hiking</figcaption>
-                                </figure>
-                            </section>
-                            <section class="col-6 hobby hobby-right">
-                                <h4 class="nodisplay">Grouping...</h4>
-                                <figure>
-                                    <img src="res/svg/airplane.svg" alt="Travel">
-                                    <figcaption>Travel</figcaption>
-                                </figure>
-                            </section>
-
+                            <p class="work-date">June 2017 - July 2017</p>
                         </section>
-
-                        <hr class="hobby">
-
-                        <section class="row">
+                        <section class="col-8 work-desc">
+                            <h2>Web Developper</h2>
+                            <p class="work-firm"><a href="https://www.crossknowledge.com/fr/">Crossknowledge</a></p>
+                            <p>Conception et développement d'un outil de création de devis pour le service commercial au niveau mondial</p>
+                        </section>
+                    </section>
+                    <section class="row">
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <section class="col-4">
                             <h4 class="nodisplay">Grouping...</h4>
-                            <section class="col-6 hobby hobby-left ">
-                                <h4 class="nodisplay">Grouping...</h4>
-                                <figure>
-                                    <img src="res/svg/oxygen-tank.svg" alt="Diving">
-                                    <figcaption>Diving</figcaption>
-                                </figure>
-                            </section>
-                            <section class="col-6 hobby hobby-right">
-                                <h4 class="nodisplay">Grouping...</h4>
-                                <figure>
-                                    <img src="res/svg/popcorn.svg" alt="Cinema">
-                                    <figcaption>Cinema</figcaption>
-                                </figure>
-                            </section>
+                            <p class="work-date">Jan 2017 - Feb 2017</p>
                         </section>
-                    </article>
+                        <section class="col-8 work-desc">
+                            <h2>Junior Architect</h2>
+                            <p class="work-firm"><a href="http://www.suricats-consulting.com/">Suricats Consulting</a></p>
+                            <p>Conception d'une solution de portail d'API pour le Crédit Agricole et développement d'un proof of concept</p>
+                        </section>
+                    </section>
+                    <section class="row">
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <section class="col-4">
+                            <h4 class="nodisplay">Grouping...</h4>
+                            <p class="work-date">June 2016 - July 2016</p>
+                        </section>
+                        <section class="col-8 work-desc">
+                            <h2>Web Consultant</h2>
+                            <p class="work-firm"><a href="https://www.fr.jamespot.com/">Jamespot</a></p>
+                            <p>Recherche, développement et intégration d'un bot pour le réseau social Jamespot</p>
+                        </section>
+                    </section>
+                    <section class="row">
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <section class="col-4">
+                            <h4 class="nodisplay">Grouping...</h4>
+                            <p class="work-date">Jan 2016 - Feb 2016</p>
+                        </section>
+                        <section class="col-8 work-desc">
+                            <h2>Junior Developper</h2>
+                            <p class="work-firm"><a href="https://www.ca-paris.fr/">Crédit Agricole</a></p>
+                            <p>Développement d'applications web pour les agences Crédit Agricole d'Ile de France</p>
+                        </section>
+                    </section>
+                    <section class="row">
+                        <h4 class="nodisplay">Grouping...</h4>
+                        <section class="col-4">
+                            <h4 class="nodisplay">Grouping...</h4>
+                            <p class="work-date">June 2015 - July 2015</p>
+                        </section>
+                        <section class="col-8 work-desc">
+                            <h2>Junior Developper</h2>
+                            <p class="work-firm"><a href="https://www.fr.jamespot.com/">Jamespot</a></p>
+                            <p>Développement d'un site web back-office pour l'administration et le déploiement des versions d'essai du réseau social.</p>
+                        </section>
+                    </section>
                 </section>
-            </section>
 
-            <section class="page">
-                <h2 class="nodisplay">Page 2</h2>
-                <h3>Tmp</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl lacus, ullamcorper tincidunt nulla in, ultrices feugiat lectus. Suspendisse tincidunt condimentum dictum. Mauris in nisl quis ante cursus volutpat. Donec sodales semper ex et consectetur. Nullam finibus neque nec odio maximus semper. Praesent tempus lectus nunc, quis porttitor purus condimentum sed. Nulla eleifend metus nibh, ut tincidunt leo malesuada ut. Aenean vehicula a libero ac gravida. Morbi imperdiet, purus sit amet tincidunt tempor, nisl arcu elementum augue, et pulvinar dolor velit nec nulla. Morbi eu nibh arcu. Maecenas euismod ligula nibh, at rutrum urna consectetur euismod. Donec volutpat, diam at maximus aliquam, eros massa vestibulum enim, vitae mollis nibh justo et dolor. Integer ultricies aliquet enim, eget blandit mi egestas et. Vestibulum nec massa ac sapien mattis scelerisque. Morbi mi ipsum, facilisis ac nibh ac, finibus vestibulum felis. Nulla eu fringilla est.·
-                </p>
-                <hr>
-                <address>
-                    <ul>
-                        <li>Adresse : 19 Allée Robert Doisneau, 92100 Boulogne Billancourt, FRANCE</li>
-                        <li><a href="tel:+33620893275">+33 6 20 89 32 75</a></li>
-                        <li><a href="mailto:tberdy@hotmail.fr">tberdy@hotmail.fr</a></li>
-                    </ul>
-                </address>
-            </section>
+                <section id="#page-contact" class="page">
+                    <h2 class="uppercase">Contact me</h2>
+                    <form class="contact-form" method="post">
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email" id="contact-form-email">
+                        </p>
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="contact-form-name">
+                        </p>
+                        <p>
+                            <label>Subject</label>
+                            <input type="text" name="subject" id="contact-form-subject">
+                        </p>
+                        <p>
+                            <label>Message</label>
+                            <textarea name="message" id="contact-form-message"></textarea>
+                        </p>
+                        <p class="download">
+                            <button class="uppercase highlight" onclick="return validateForm();">Submit</button>
+                        </p>
+                    </form>
+                </section>
+            </main>
 
-            <section class="page">
-                <h2 class="nodisplay">Page 3</h2>
-                <h3>Contact me</h3>
-                <form class="contact-form" method="post">
-                    <p>
-                        <label>Email</label>
-                        <input type="email" name="email" id="contact-form-email">
-                    </p>
-                    <p>
-                        <label>Name</label>
-                        <input type="text" name="name" id="contact-form-name">
-                    </p>
-                    <p>
-                        <label>Subject</label>
-                        <input type="text" name="subject" id="contact-form-subject">
-                    </p>
-                    <p>
-                        <label>Message</label>
-                        <textarea name="message" id="contact-form-message"></textarea>
-                    </p>
-                    <p class="download">
-                        <button class="uppercase highlight" onclick="return validateForm();">Submit</button>
-                    </p>
-                </form>
-            </section>
-        </main>
-
-        <header>
-            <nav>
-
-            </nav>
-        </header>
-
-
-
+            <header style="float: right;">
+                <nav>
+                </nav>
+            </header>
+        </section>
     </body>
 </html>

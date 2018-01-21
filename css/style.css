@@ -43,7 +43,6 @@ body {
 
 .highlight {
     font-weight: bold;
-    font-size: 0.9em;
 }
 
 .uppercase {
@@ -51,16 +50,35 @@ body {
 }
 
 
+#bg-draw-left {
+    top: 0;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+}
+
+#bg-draw-right {
+    top: 0;
+    position: fixed;
+    z-index: -1;
+    top: -100px;
+    right: -100px;
+}
+
+.centered {
+    margin: auto;
+    max-width: 1200px;
+}
 
 .main-container {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 aside.sidebar {
-    width: 290px;
-    margin: 48px;
-    
+    width: 250px;
+    margin: 48px 0px;
+
     box-shadow: 0 0 1em #616161;
 }
 
@@ -111,11 +129,13 @@ section.download a {
     border-radius: 32px;
     background-color: #607D8B;
     text-decoration: none;
-    border: solid 1px #607D8B;
+    border: solid 1px;
     line-height: 1.2;
     padding: 16px 36px;
     display: block;
     text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 
@@ -164,6 +184,36 @@ hr.hobby {
     border-left: solid 1px #e1e1e1;
 }
 
+
+.work-date {
+    margin: 16px;
+    background-color: #607D8B;
+    border-left: solid 2px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 8px 12px;
+    text-align: center;
+    color: white;
+}
+
+.work-desc {
+    border-left: solid 2px #607D8B;
+    padding: 0px 16px;
+}
+
+.work-desc h2 {
+    list-style-type: circle;
+    margin-bottom: 4px;
+}
+
+.work-firm {
+    margin-top: 0px;
+}
+
+.work-firm a {
+    text-decoration: none;
+    color: #78909C;
+}
 
 
 
@@ -224,7 +274,7 @@ nav.quick-nav {
     border-radius: 32px;
     background-color: #607D8B;
     text-decoration: none;
-    border: solid 1px #607D8B;
+    border: solid 1px;
     line-height: 1.2;
     padding: 8px 24px;
     text-align: center;
