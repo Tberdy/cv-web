@@ -162,9 +162,25 @@ hr.separator {
     border: solid 1px #e1e1e1;
 }
 
-
 table.breath tr td {
     padding: 8px;
+}
+
+table.breath a {
+    color: #78909C;
+    text-decoration: none;
+}
+
+#toogle {
+    color: white;
+    border-radius: 32px;
+    background-color: #607D8B;
+    text-decoration: none;
+    border: solid 1px;
+    line-height: 1.2;
+    padding: 8px 24px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .hobby figcaption {

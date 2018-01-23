@@ -80,23 +80,23 @@
                                     <th>Value</th>
                                 </tr>
                                 <tr>
-                                    <td>Full Name</td>
+                                    <td class="highlight">Full Name</td>
                                     <td>Thomas Berdy</td>
                                 </tr>
                                 <tr>
-                                    <td>Date of birth</td>
+                                    <td class="highlight">Date of birth</td>
                                     <td>06 / 06 / 1996</td>
                                 </tr>
                                 <tr>
-                                    <td>Address</td>
+                                    <td class="highlight">Address</td>
                                     <td>19 Allée Robert Doisneau, 92100 Boulogne Billancourt, FRANCE</td>
                                 </tr>
                                 <tr>
-                                    <td>E-mail</td>
+                                    <td class="highlight">E-mail</td>
                                     <td><a href="mailto:tberdy@hotmail.fr">tberdy@hotmail.fr</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Phone</td>
+                                    <td class="highlight">Phone</td>
                                     <td><a href="tel:+33620893275">+33 6 20 89 32 75</a></td>
                                 </tr>
                             </table>
@@ -166,7 +166,23 @@
                                     <td><progress value="85" max="100" class="theme-color"></progress></td>
                                     <td>85%</td>
                                 </tr>
+                                <tr class="hidden-skills nodisplay">
+                                    <td class="highlight uppercase">Linux</td>
+                                    <td><progress value="95" max="100" class="theme-color"></progress></td>
+                                    <td>95%</td>
+                                </tr>
+                                <tr class="hidden-skills nodisplay">
+                                    <td class="highlight uppercase">Docker</td>
+                                    <td><progress value="70" max="100" class="theme-color"></progress></td>
+                                    <td>70%</td>
+                                </tr>
+                                <tr class="hidden-skills nodisplay">
+                                    <td class="highlight uppercase">VMware</td>
+                                    <td><progress value="60" max="100" class="theme-color"></progress></td>
+                                    <td>60%</td>
+                                </tr>
                             </table>
+                            <button id="toogle" class="uppercase highlight" onclick="toogleMoreSkills();">More</button>
                         </article>
 
                         <article class="col-6">
@@ -248,7 +264,7 @@
                         <section class="col-8 work-desc">
                             <h2>Web Developper</h2>
                             <p class="work-firm"><a href="https://www.crossknowledge.com/fr/">Crossknowledge</a></p>
-                            <p>Conception et développement d'un outil de création de devis pour le service commercial au niveau mondial</p>
+                            <p>Design and development of a quotation tool for the worldwide sales department</p>
                         </section>
                     </section>
                     <section class="row">
@@ -260,7 +276,7 @@
                         <section class="col-8 work-desc">
                             <h2>Junior Architect</h2>
                             <p class="work-firm"><a href="http://www.suricats-consulting.com/">Suricats Consulting</a></p>
-                            <p>Conception d'une solution de portail d'API pour le Crédit Agricole et développement d'un proof of concept</p>
+                            <p>Conception of an API portal solution for Crédit Agricole and development of a proof of concept</p>
                         </section>
                     </section>
                     <section class="row">
@@ -272,7 +288,7 @@
                         <section class="col-8 work-desc">
                             <h2>Web Consultant</h2>
                             <p class="work-firm"><a href="https://www.fr.jamespot.com/">Jamespot</a></p>
-                            <p>Recherche, développement et intégration d'un bot pour le réseau social Jamespot</p>
+                            <p>Research, development and integration of a chatbot for the social network Jamespot</p>
                         </section>
                     </section>
                     <section class="row">
@@ -284,7 +300,7 @@
                         <section class="col-8 work-desc">
                             <h2>Junior Developper</h2>
                             <p class="work-firm"><a href="https://www.ca-paris.fr/">Crédit Agricole</a></p>
-                            <p>Développement d'applications web pour les agences Crédit Agricole d'Ile de France</p>
+                            <p>Web development for Crédit Agricole agencies in Ile de France</p>
                         </section>
                     </section>
                     <section class="row">
@@ -296,7 +312,7 @@
                         <section class="col-8 work-desc">
                             <h2>Junior Developper</h2>
                             <p class="work-firm"><a href="https://www.fr.jamespot.com/">Jamespot</a></p>
-                            <p>Développement d'un site web back-office pour l'administration et le déploiement des versions d'essai du réseau social.</p>
+                            <p>Development of a back office website for the administration and deployment of trial versions of the social network Jamespot.</p>
                         </section>
                     </section>
                 </section>
@@ -326,11 +342,6 @@
                     </form>
                 </section>
             </main>
-
-            <header style="float: right;">
-                <nav>
-                </nav>
-            </header>
         </section>
     </body>
 </html>
